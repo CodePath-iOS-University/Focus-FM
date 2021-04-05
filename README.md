@@ -1,89 +1,152 @@
-# Product Spec Design: Name is TBD
+Original App Design Project 
+===
 
+# Name TBD
 
-https://hackmd.io/@nesquena/H1wGpVUh7?type=view
+## Table of Contents
+1. [Overview](#Overview)
+1. [Product Spec](#Product-Spec)
+1. [Wireframes](#Wireframes)
+2. [Schema](#Schema)
+3. [Ideas](#Ideas)
 
+## Overview
+### Description
+An app that users can use to opyimize focus by creating tasks and setting a timer to finish task. Users can also listen to music while focusing on task.
 
-There are 3 steps to creating your product outline:
+### App Evaluation
 
-Describe required and optional user stories
-Identify the screens in your app
-Document your navigation flow
-You can find a product outline template to add to Github here. Copy this template to a HackMD and work on this as a team.
+- **Category:** Study / Music
+- **Mobile:** This app would be primarily developed for mobile but would perhaps be just as viable on a computer. Functionality wouldn’t be limited to mobile devices, however mobile version could potentially have more features.
+- **Story:** Allows users to optimize focus and concentration to work on tasks by setting timer, with relaxing music and also setting incentive.
+- **Market:** Any individual could choose to use this app.
+- **Habit:** Whenever a user starts to work on something, they would hop onto the app and use it for quick and easy music, as well as timers to keep them on track. 
+- **Scope:** First we target it to students and then it can evolve into a much larger audience with broader music choices and a developed reward system. 
 
-# 1. User Stories (Required and Optional)
+## Product Spec
 
-To kick off this session, we want to list out the things a user can do within our app, and tag them as “must-have” (required) or “nice-to-have” (optional)
+### 1. User Stories (Required and Optional)
 
-### Required Must-have Stories
+**Required Must-have Stories**
 
-For our app, we identified the following “must-have” features which a user needs to be able to perform for the app to work:
+* User can create a new account
+* User can find music and play it in the background
+* User can login
+* User can stay focused with a timer
+* User can create/name a session/task
 
-User can create a new account
-User can find music and play it in the background
-User can login
-User can stay focused with a timer
-User can create/name a session/task
+**Optional Nice-to-have Stories**
 
-### Optional Nice-to-have Stories
-A reward system such as a city that the user can build up
-User can find other users using a friend system
--- User should be able to view other user's city
--- Befriend other users
--- Look through their music 
+* User can find other users using a friend system
+* User should be able to view other user's city
+* Befriend other users
+* Look through their music 
 
 User can post their own custom music
--- Users can browser music posted by other users
+* Users can browser music posted by other users
 
-# 2. Screen Archetypes
+### 2. Screen Archetypes
 
-Based on your required user stories, the next step is identifying your core screen archetypes, these are the different screens your app will have to have to function. For example:
-
-Login Screen
+* **Startup Screen**
+-- Launch Storyboard
+* **Login Screen**
 -- User can login
-Registration Screen
+* **Registration Screen**
 -- User can create a new account
-Work tab
+* **Start Session tab**
 -- User can create a work/study/task session
 -- User can set a timer and start listening to music
 -- User can select a playlist or have a playlist automatically
-In progress page
+* **Session Settings page**
 -- Once the user starts a session, they are directed to this page and cannot go back unless they press cancel
 recommended to them
-Music tab
+* **Music Library tab**
 -- User can choose what music they like and add them to their playlist
-Setting tab
+* **Music Preview**
+-- User can listen to music with visuals
+* **Setting page tab**
 -- Log out
+* **Reward System**
+-- User can have rewards for completing sessions
 
 
-Notice that we’ve listed every required user story to a screen archetype above.
 
-# 3. Navigation
+### 3. Navigation
 
-Next we want to take our screen archetypes and required user stories and define the navigation within our apps. There are 2 key navigation types within an app:
+**Tab Navigation** (Tab to Screen)
 
-Tab Navigation - This is when the user switches between screens by simply clicking on a tab displayed at the top or bottom of the app.
-Flow Navigation - This is when the user taps on something on a screen and is taken to another screen. From that screen, they can go back to the previous screen, or navigate to another screen.
-For example, for our simplified version of Instagram:
+* Work session tab
+* Music Library tab
+* City tab
+* Settings tab
 
-Tab Navigation (Tab to Screen)
+**Flow Navigation** (Screen to Screen)
 
-Home Feed
-Search User
-Post a Photo
-Flow Navigation (Screen to Screen)
+* Work Session tab
+   * Timer
+* Music Library tab
+   * Music description
 
-List all your screens from above. Under each screen, list the screens you can navigate to from that screen.
+## Wireframes
+[Add picture of your hand sketched wireframes in this section]
+<img src="YOUR_WIREFRAME_IMAGE_URL" width=600>
 
-Login Screen
-=> Home
-Registration Screen
-=> Home
-Stream Screen
-=> None, but future version will likely involve navigation to a detailed screen to see comments for each photo.
-Creation Screen
-=> Home (after you finish posting the photo)
-=> In the actual wireframe, you will need multiple screens to represent the creation process to add filters, etc.
-Search Screen
-=> None
- 
+### [BONUS] Digital Wireframes & Mockups
+https://www.figma.com/file/TlR9nEoN5I9ZbigLbgVXeC/iOS-App?node-id=0%3A1
+
+
+### [BONUS] Interactive Prototype
+https://www.figma.com/proto/TlR9nEoN5I9ZbigLbgVXeC/iOS-App?node-id=3%3A3&viewport=363%2C270%2C0.16879121959209442&scaling=scale-down&page-id=0%3A1
+
+## Schema 
+[This section will be completed in Unit 9]
+### Models
+[Add table of models]
+### Networking
+- [Add list of network requests by screen ]
+- [Create basic snippets for each Parse network request]
+- [OPTIONAL: List endpoints if using existing API such as Yelp]
+
+# Ideas
+
+## (Name TBD)
+
+### Town app inspired by Forest and Fortune City 
+- Create a whole town gradually as you finish tasks (instead of planting trees)
+- Smaller scale
+
+**Features**:
+- The app reminds you to take a break in the middle 
+- Pomodoro technique
+
+**Music Categories**: 
+- Dark/light academia music
+- Lo-fi
+- Nature sounds 
+- Background noise (talking, fire cracking, etc.)
+- Synthwave 
+- Classical music 
+- Jazz
+- Jazzy hip-hop
+- Hip-hop
+- Calm anxiety
+
+**Music Examples**: 
+
+https://www.youtube.com/watch?v=Rbzu8sUaZK4&t=827s
+https://www.youtube.com/watch?v=bmVKaAV_7-A
+https://www.youtube.com/watch?v=c0_ejQQcrwI
+
+## How To Implement 
+- Flow navigation when logging in  
+- Once logged in, tab navigation 
+- Tab navigation
+-- Feed (Find music here, Music that is already on the platform)
+-- Map (Where the city is)
+-- Study (start playing music, prompt to start timer) 
+-- Settings
+-- Playlist 
+
+**Other ideas:**
+- Allow users to share music and use other users' music
+- Have a friend system, so you can see your friend's city (collection)
