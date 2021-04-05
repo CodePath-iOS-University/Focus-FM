@@ -82,15 +82,15 @@ recommended to them
 
 **Flow Navigation** (Screen to Screen)
 
+* Login Screen
+    * Registration screen if need to register
+    * Work Session upon successful login
 * Work Session tab
    * Timer
 * Music Library tab
    * Music description
 
 ## Wireframes
-[Add picture of your hand sketched wireframes in this section]
-<img src="YOUR_WIREFRAME_IMAGE_URL" width=600>
-
 ### [BONUS] Digital Wireframes & Mockups
 https://www.figma.com/file/TlR9nEoN5I9ZbigLbgVXeC/iOS-App?node-id=0%3A1
 
@@ -150,3 +150,5 @@ https://www.youtube.com/watch?v=c0_ejQQcrwI
 **Other ideas:**
 - Allow users to share music and use other users' music
 - Have a friend system, so you can see your friend's city (collection)
+
+
