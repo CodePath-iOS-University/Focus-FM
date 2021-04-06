@@ -92,7 +92,7 @@ recommended to them
 
 ## Wireframes
 ### [BONUS] Digital Wireframes & Mockups
-<img src="https://imgur.com/gallery/7tCX9vp" width=800><br>
+<img src="https://i.imgur.com/vlLPCjA.png" width=800><br>
 
 
 ### [BONUS] Interactive Prototype
