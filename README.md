@@ -91,12 +91,13 @@ recommended to them
    * Music description
 
 ## Wireframes
-### [BONUS] Digital Wireframes & Mockups
 <img src="https://i.imgur.com/vlLPCjA.png" width=800><br>
 
+### [BONUS] Digital Wireframes & Mockups
+<img src="https://i.imgur.com/FRPDWSz.png" width=500>
 
 ### [BONUS] Interactive Prototype
-https://www.figma.com/proto/TlR9nEoN5I9ZbigLbgVXeC/iOS-App?node-id=3%3A3&viewport=363%2C270%2C0.16879121959209442&scaling=scale-down&page-id=0%3A1
+<img src="http://g.recordit.co/UXV8xv8y1X.gif" width=250><br>
 
 ## Schema 
 [This section will be completed in Unit 9]
