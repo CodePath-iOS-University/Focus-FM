@@ -92,7 +92,7 @@ recommended to them
 
 ## Wireframes
 ### [BONUS] Digital Wireframes & Mockups
-https://www.figma.com/file/TlR9nEoN5I9ZbigLbgVXeC/iOS-App?node-id=0%3A1
+<img src="https://imgur.com/gallery/7tCX9vp" width=800><br>
 
 
 ### [BONUS] Interactive Prototype
