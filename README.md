@@ -150,7 +150,7 @@ recommended to them
          
 # Ideas
 
-## (Name TBD)
+## Focus-FM
 
 ### Town app inspired by Forest and Fortune City 
 - Create a whole town gradually as you finish tasks (instead of planting trees)
