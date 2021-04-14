@@ -100,14 +100,54 @@ recommended to them
 <img src="http://g.recordit.co/UXV8xv8y1X.gif" width=250><br>
 
 ## Schema 
-[This section will be completed in Unit 9]
 ### Models
-[Add table of models]
+#### Work Section
+| Property      | Type     | Description |
+   | ------------- | -------- | ------------|
+   | videoTitle      | String   | unique title for the video the user is watching/listening |
+   | createSection        | Button | allows user to create a new work session |
+   | video         | imageView     | video that the user is watching/listening |
+   | nextSong       | Button   | lets the user go to the next song |
+   | chooseSong | Button   | lets the user choose a song from their music library |
+   | back    | Button   | lets the user go back |
+#### Music Section (Table View)
+| Property      | Type     | Description |
+   | ------------- | -------- | ------------|
+   | videoTitle      | String   | unique title for the video the user is watching/listening |
+   | channelName        | String| the channel that uploaded the video |
+   | views         | int     | views that the video have |
+   | thumbnail       | imageView   | thumbnail of the video that the user is watching/listening |
+   | searchBar   | textBox   | allows user to search for music/video |
+   | video    | imageView  |  video that the user is watching/listening |
+#### Settings
+| Property      | Type     | Description |
+   | ------------- | -------- | ------------|
+   | darkMode     | toggleBar   | lets the user change the view mode to dark theme or light theme |
+   | deleteAccount       | Button| allows user to delete accounts |
+   | editAccount       | Button    | allows user to change their username or password |
+#### Reward System (Table View)
+| Property      | Type     | Description |
+   | ------------- | -------- | ------------|
+   | badge    | imageView  | user's achievements through completing tasks |
+   | badgeDescription       | String| badge description|
+   | badgeTitle       | String   | badge title |
 ### Networking
-- [Add list of network requests by screen ]
-- [Create basic snippets for each Parse network request]
-- [OPTIONAL: List endpoints if using existing API such as Yelp]
-
+#### List of network requests by screen 
+   - Login Screen
+     - (Read/GET) Query logged in user object
+   - Registration Screen
+     - (Create/USER) Create a user object
+   - Start Session tab
+     - (Create/SESSION) Create a new session
+   - Music Library tab
+     - (Read/GET) Music from third-party music library
+   - Music Preview
+     - (Read/GET) Music from third-party music library
+   - Setting page tab
+     - (Update/PUT) Update user profile 
+   - Reward System
+     - (Create/POST) Create a new achievement
+         
 # Ideas
 
 ## (Name TBD)
