@@ -12,7 +12,7 @@ Original App Design Project
 
 ## Overview
 ### Description
-An app that users can use to opyimize focus by creating tasks and setting a timer to finish task. Users can also listen to music while focusing on task.
+An app that users can use to optimize focus by creating tasks and setting a timer to finish task. Users can also listen to music while focusing on task.
 
 ### App Evaluation
 
