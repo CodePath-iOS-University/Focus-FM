@@ -57,7 +57,6 @@
                                 <state key="normal" title="sign in"/>
                                 <connections>
                                     <action selector="SignInButton:" destination="iWU-fT-q57" eventType="touchUpInside" id="JA5-cD-gfE"/>
-                                    <segue destination="5l4-0n-LPW" kind="presentation" id="XhV-9f-TPA"/>
                                 </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="dont have an account?" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="exe-Tb-gXV">
@@ -82,6 +81,7 @@
                     <connections>
                         <outlet property="PasswordTextField" destination="hfR-a4-Zib" id="y99-sY-jb0"/>
                         <outlet property="UsernameTextField" destination="gbB-qB-YXZ" id="srW-Pu-fLs"/>
+                        <segue destination="5l4-0n-LPW" kind="presentation" identifier="loginSegue" id="rj9-v4-oSv"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="g5D-eP-1m3" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
