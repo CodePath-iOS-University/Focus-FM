@@ -15,6 +15,7 @@
 		F2AA93912628CBFC00644EA8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F2AA938F2628CBFC00644EA8 /* LaunchScreen.storyboard */; };
 		F2AA939C2628CBFC00644EA8 /* Focus_FMTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2AA939B2628CBFC00644EA8 /* Focus_FMTests.swift */; };
 		F2AA93A72628CBFC00644EA8 /* Focus_FMUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2AA93A62628CBFC00644EA8 /* Focus_FMUITests.swift */; };
+		F2AA93B8262CD98700644EA8 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2AA93B7262CD98700644EA8 /* LoginViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		F2AA93A22628CBFC00644EA8 /* Focus-FMUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Focus-FMUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F2AA93A62628CBFC00644EA8 /* Focus_FMUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Focus_FMUITests.swift; sourceTree = "<group>"; };
 		F2AA93A82628CBFC00644EA8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F2AA93B7262CD98700644EA8 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,6 +108,7 @@
 				F2AA938D2628CBFC00644EA8 /* Assets.xcassets */,
 				F2AA938F2628CBFC00644EA8 /* LaunchScreen.storyboard */,
 				F2AA93922628CBFC00644EA8 /* Info.plist */,
+				F2AA93B7262CD98700644EA8 /* LoginViewController.swift */,
 			);
 			path = "Focus-FM";
 			sourceTree = "<group>";
@@ -258,6 +261,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F2AA93B8262CD98700644EA8 /* LoginViewController.swift in Sources */,
 				F2AA93892628CBFA00644EA8 /* ViewController.swift in Sources */,
 				F2AA93852628CBFA00644EA8 /* AppDelegate.swift in Sources */,
 				F2AA93872628CBFA00644EA8 /* SceneDelegate.swift in Sources */,
