@@ -10,6 +10,10 @@ Original App Design Project
 2. [Schema](#Schema)
 3. [Ideas](#Ideas)
 
+# Requirements
+## Pods
+Parse
+
 ## Overview
 ### Description
 An app that users can use to optimize focus by creating tasks and setting a timer to finish task. Users can also listen to music while focusing on task.

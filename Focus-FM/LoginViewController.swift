@@ -6,6 +6,7 @@
 //
 
 import UIKit
+import Parse
 
 class LoginViewController: UIViewController {
     
@@ -15,13 +16,11 @@ class LoginViewController: UIViewController {
     
     
     @IBAction func SignInButton(_ sender: Any) {
+        let username = UsernameTextField.text!
+        let password = PasswordTextField.text!
         
     }
     
-    
-    @IBAction func SignUpButton(_ sender: Any) {
-        
-    }
     
     override func viewDidLoad() {
         super.viewDidLoad()

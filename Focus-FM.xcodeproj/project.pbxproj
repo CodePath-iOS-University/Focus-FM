@@ -3,13 +3,14 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
 		56062FD5EA2CE8998674030F /* Pods_Focus_FM.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 65A4D2345617EFAAC553E6DB /* Pods_Focus_FM.framework */; };
 		6986A00C96B5DA5A5D4546A6 /* Pods_Focus_FMTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CA9006F721ED19E9DE4A69DF /* Pods_Focus_FMTests.framework */; };
-		8215DBB8445DF6F4A774116A /* Pods_Focus_FMUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8C5AD976CCC171B5EB823AB7 /* Pods_Focus_FMUITests.framework */; };
+		B251EEB5A35BA1CBB06E4DB4 /* Pods_Focus_FM_Focus_FMUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 704A5C9E14EC95E790DDC25E /* Pods_Focus_FM_Focus_FMUITests.framework */; };
+		D4754F10262CE09600AF402E /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4754F0F262CE09600AF402E /* SignUpViewController.swift */; };
 		F2AA93852628CBFA00644EA8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2AA93842628CBFA00644EA8 /* AppDelegate.swift */; };
 		F2AA93872628CBFA00644EA8 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2AA93862628CBFA00644EA8 /* SceneDelegate.swift */; };
 		F2AA93892628CBFA00644EA8 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2AA93882628CBFA00644EA8 /* ViewController.swift */; };
@@ -39,13 +40,16 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		089843DF100F0B338311402D /* Pods-Focus-FM-Focus-FMUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Focus-FM-Focus-FMUITests.release.xcconfig"; path = "Target Support Files/Pods-Focus-FM-Focus-FMUITests/Pods-Focus-FM-Focus-FMUITests.release.xcconfig"; sourceTree = "<group>"; };
 		2717A13C3272C79C4FADC5BC /* Pods-Focus-FMUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Focus-FMUITests.debug.xcconfig"; path = "Target Support Files/Pods-Focus-FMUITests/Pods-Focus-FMUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		626DD785A066C399F532906B /* Pods-Focus-FMTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Focus-FMTests.debug.xcconfig"; path = "Target Support Files/Pods-Focus-FMTests/Pods-Focus-FMTests.debug.xcconfig"; sourceTree = "<group>"; };
 		65A4D2345617EFAAC553E6DB /* Pods_Focus_FM.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Focus_FM.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		6BDBE1A6F7A93101CC2CA9FA /* Pods-Focus-FMUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Focus-FMUITests.release.xcconfig"; path = "Target Support Files/Pods-Focus-FMUITests/Pods-Focus-FMUITests.release.xcconfig"; sourceTree = "<group>"; };
+		704A5C9E14EC95E790DDC25E /* Pods_Focus_FM_Focus_FMUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Focus_FM_Focus_FMUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		73526AD8736BA517602C499E /* Pods-Focus-FMTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Focus-FMTests.release.xcconfig"; path = "Target Support Files/Pods-Focus-FMTests/Pods-Focus-FMTests.release.xcconfig"; sourceTree = "<group>"; };
-		8C5AD976CCC171B5EB823AB7 /* Pods_Focus_FMUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Focus_FMUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		AFA88C83E58609B753BE93DF /* Pods-Focus-FM-Focus-FMUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Focus-FM-Focus-FMUITests.debug.xcconfig"; path = "Target Support Files/Pods-Focus-FM-Focus-FMUITests/Pods-Focus-FM-Focus-FMUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		CA9006F721ED19E9DE4A69DF /* Pods_Focus_FMTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Focus_FMTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D4754F0F262CE09600AF402E /* SignUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
 		F2AA93812628CBFA00644EA8 /* Focus-FM.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Focus-FM.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F2AA93842628CBFA00644EA8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F2AA93862628CBFA00644EA8 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -86,7 +90,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8215DBB8445DF6F4A774116A /* Pods_Focus_FMUITests.framework in Frameworks */,
+				B251EEB5A35BA1CBB06E4DB4 /* Pods_Focus_FM_Focus_FMUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -98,7 +102,7 @@
 			children = (
 				65A4D2345617EFAAC553E6DB /* Pods_Focus_FM.framework */,
 				CA9006F721ED19E9DE4A69DF /* Pods_Focus_FMTests.framework */,
-				8C5AD976CCC171B5EB823AB7 /* Pods_Focus_FMUITests.framework */,
+				704A5C9E14EC95E790DDC25E /* Pods_Focus_FM_Focus_FMUITests.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -112,8 +116,9 @@
 				73526AD8736BA517602C499E /* Pods-Focus-FMTests.release.xcconfig */,
 				2717A13C3272C79C4FADC5BC /* Pods-Focus-FMUITests.debug.xcconfig */,
 				6BDBE1A6F7A93101CC2CA9FA /* Pods-Focus-FMUITests.release.xcconfig */,
+				AFA88C83E58609B753BE93DF /* Pods-Focus-FM-Focus-FMUITests.debug.xcconfig */,
+				089843DF100F0B338311402D /* Pods-Focus-FM-Focus-FMUITests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -150,6 +155,7 @@
 				F2AA938F2628CBFC00644EA8 /* LaunchScreen.storyboard */,
 				F2AA93922628CBFC00644EA8 /* Info.plist */,
 				F2AA93B7262CD98700644EA8 /* LoginViewController.swift */,
+				D4754F0F262CE09600AF402E /* SignUpViewController.swift */,
 			);
 			path = "Focus-FM";
 			sourceTree = "<group>";
@@ -221,6 +227,7 @@
 				F2AA939E2628CBFC00644EA8 /* Sources */,
 				F2AA939F2628CBFC00644EA8 /* Frameworks */,
 				F2AA93A02628CBFC00644EA8 /* Resources */,
+				DAE800D780C52F424BC8E9B2 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -334,7 +341,7 @@
 			outputFileListPaths = (
 			);
 			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-Focus-FMUITests-checkManifestLockResult.txt",
+				"$(DERIVED_FILE_DIR)/Pods-Focus-FM-Focus-FMUITests-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -385,6 +392,23 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
+		DAE800D780C52F424BC8E9B2 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Focus-FM-Focus-FMUITests/Pods-Focus-FM-Focus-FMUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Focus-FM-Focus-FMUITests/Pods-Focus-FM-Focus-FMUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Focus-FM-Focus-FMUITests/Pods-Focus-FM-Focus-FMUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -396,6 +420,7 @@
 				F2AA93892628CBFA00644EA8 /* ViewController.swift in Sources */,
 				F2AA93852628CBFA00644EA8 /* AppDelegate.swift in Sources */,
 				F2AA93872628CBFA00644EA8 /* SceneDelegate.swift in Sources */,
+				D4754F10262CE09600AF402E /* SignUpViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -650,7 +675,7 @@
 		};
 		F2AA93B22628CBFC00644EA8 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 2717A13C3272C79C4FADC5BC /* Pods-Focus-FMUITests.debug.xcconfig */;
+			baseConfigurationReference = AFA88C83E58609B753BE93DF /* Pods-Focus-FM-Focus-FMUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -670,7 +695,7 @@
 		};
 		F2AA93B32628CBFC00644EA8 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 6BDBE1A6F7A93101CC2CA9FA /* Pods-Focus-FMUITests.release.xcconfig */;
+			baseConfigurationReference = 089843DF100F0B338311402D /* Pods-Focus-FM-Focus-FMUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
