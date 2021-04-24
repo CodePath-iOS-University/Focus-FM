@@ -33,9 +33,9 @@ An app that users can use to optimize focus by creating tasks and setting a time
 
 **Required Must-have Stories**
 
-* User can create a new account
+[x] User can create a new account
 * User can find music and play it in the background
-* User can login
+[x] User can login
 * User can stay focused with a timer
 * User can create/name a session/task
 
